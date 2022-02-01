@@ -1,5 +1,4 @@
 import * as sst from "@serverless-stack/resources";
-import { SamlConsolePrincipal } from "aws-cdk-lib/aws-iam";
 
 export default class StorageStack extends sst.Stack {
   // Public reference to the bucket
